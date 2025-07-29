@@ -23,7 +23,7 @@ export default function Skills() {
 		{
 			title: "Tools & Technologies",
 			color: "bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-200",
-			items: ["Firebase Cloud Functions", "Git/GitHub", "Typeform", "RxJS"],
+			items: ["Firebase Cloud Functions", "Git/GitHub", "RxJS"],
 		},
 		{
 			title: "Testing",
