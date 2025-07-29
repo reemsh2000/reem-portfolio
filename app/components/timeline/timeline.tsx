@@ -1,7 +1,7 @@
 import { data } from "./timeline-data";
 export default function Timeline() {
 	return (
-		<div className="p-5 flex flex-col items-center">
+		<div id="experience"className="p-5 flex flex-col items-center">
         <h2 className="my-10 hover:border-b-3 hover:border-amber-100 font-bold text-xl tracking-tight text-gray-900 dark:text-white">Work Experience</h2>
         <div className="flex">
 			<ol className=" p-4 w-1/2 md:w-full ">

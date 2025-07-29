@@ -1,10 +1,9 @@
 import type { Config } from "tailwindcss";
-import { heroui } from "@heroui/react";
 
 // /** @type {import('tailwindcss').Config} */
 
 const config: Config = {
-	content: ["./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}", "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}"],
+	content: ["./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}"],
 	theme: {
 		extend: {
 			colors: {
@@ -25,20 +24,7 @@ const config: Config = {
 	},
 	darkMode: "class",
 	plugins: [
-		heroui({
-			themes: {
-				light: {
-					colors: {
-						primary: "#33FF00",
-					},
-				},
-				dark: {
-					colors: {
-						primary: "#33FF00",
-					},
-				},
-			},
-		}),
+		
 	],
 };
 
