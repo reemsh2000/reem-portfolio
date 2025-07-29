@@ -12,6 +12,7 @@ export default function Header() {
                 <Link href="#skills"className="mx-4 hover:border-b-3 hover:border-amber-100">Skills</Link>
                 <Link href="#experience"className="mx-4 hover:border-b-3 hover:border-amber-100">Experience</Link>
                 <Link href="#services"className="mx-4 hover:border-b-3 hover:border-amber-100">Services</Link>
+                <Link href="#projects"className="mx-4 hover:border-b-3 hover:border-amber-100">Projects</Link>
                 <Link href="#contact"className="mx-4 hover:border-b-3 hover:border-amber-100">Contact</Link>
             </div>
         </div>
