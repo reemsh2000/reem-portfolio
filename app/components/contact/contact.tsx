@@ -1,9 +1,9 @@
 export default function Contact() {
 
 	return (
-		<div id="contact"className="p-5 flex flex-col items-center">
+		<div id="contact"className="px-5 flex flex-col items-center py-15">
 			<h2 className="my-5 hover:border-b-3 hover:border-amber-100 font-bold text-xl tracking-tight text-gray-900 dark:text-white">Contact</h2>
-			<form  action="https://formspree.io/f/xblkyqnb" method="POST" className="flex flex-col w-xl">
+			<form  action="https://formspree.io/f/xblkyqnb" method="POST" className="flex flex-col md:w-xl w-full">
 				<div className="">
 					<label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
 						Name

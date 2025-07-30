@@ -1,3 +1,4 @@
+import './style.css'
 export default function Skills() {
 	const skillCategories = [
 		{
@@ -41,7 +42,7 @@ export default function Skills() {
 						<h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-2">{title}</h3>
 						<div className="flex flex-wrap gap-3">
 							{items.map((skill) => (
-								<span key={skill} className={`px-4 py-2 rounded-full text-sm font-medium shadow-sm ${color}`}>
+								<span key={skill} className={`px-4 py-2 rounded-full text-sm font-medium shadow-sm ${color} language`}>
 									{skill}
 								</span>
 							))}

@@ -1,17 +1,24 @@
+'use client';
 import { FileUser, Github, Linkedin, MessageSquareMore } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth", // 👈 This gives the smooth scrolling effect
+		});
+	};
 	return (
 		<footer className="bg-gray-900 text-white py-8 px-4 relative">
-			<Link className="return-home absolute -top-1 left-1/2 bg-amber-300 rounded-lg" href="#header">
+			{<button onClick={scrollToTop} className="return-home absolute -top-1 left-1/2 bg-amber-300 rounded-lg">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="35px" viewBox="0 0 24 24">
-					<title></title> 
+					<title></title>
 					<path
 						fill="#fafafa"
 						d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
 				</svg>
-			</Link>
+			</button>}
 			<div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-6">
 				{/* Contact Info */}
 				<div>
