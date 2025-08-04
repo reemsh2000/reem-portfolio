@@ -9,7 +9,7 @@ export default function Skills() {
 		{
 			title: "Frameworks & Libraries",
 			color: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200",
-			items: ["Angular", "ReactJS", "NextJS", "ExpressJS", "PostgreSQL", "Flutter (basic)"],
+			items: [ "ReactJS","Angular", "NextJS", "ExpressJS", "PostgreSQL", "Flutter (basic)"],
 		},
 		{
 			title: "UI Libraries",
@@ -24,7 +24,7 @@ export default function Skills() {
 		{
 			title: "Tools & Technologies",
 			color: "bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-200",
-			items: ["Firebase Cloud Functions", "Git/GitHub", "RxJS"],
+			items: ["Firebase Cloud Functions", "Git/GitHub", "RxJS","Socket.io"],
 		},
 		{
 			title: "Testing",
